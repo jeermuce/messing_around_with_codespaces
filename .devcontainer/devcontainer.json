@@ -1,0 +1,7 @@
+{
+    "name": "Codespace for Skills!",
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+    "remoteUser": "codespace",
+    "overrideCommand": false,
+    "postCreateCommand": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain nightly"
+}
